@@ -12,7 +12,7 @@
 
 ## Live Page
 
-[Page Link](https://ikuartz.github.io/math-magicians/dist/index.html)
+[Page Link](https://ikuartz.github.io/math-magicians/math-magicians/public/index.html)
 ### First requirements:
 
 
