@@ -8,7 +8,7 @@
 <!-- ![Desktop Version](./src/imgs/todo-list.png)
 ![Mobile Version](./src/imgs/todo-mobile.png) -->
 
-"Math Magicians" is a one page app that displays a calculator allows you to make basic operations.
+"Math Magicians" is a single page app that displays a calculator allows you to make basic operations.
 
 ## Live Page
 
