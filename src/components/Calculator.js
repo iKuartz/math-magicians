@@ -12,7 +12,7 @@ const Calculator = () => {
 
   const [state, setupState] = useState(initialState);
 
-  const clickFunction = (e) => {
+  const onClick = (e) => {
     const button = e.target.innerHTML;
     const answer = calculate(state, button);
     setupState(answer);
@@ -33,8 +33,8 @@ const Calculator = () => {
         <div className="row">
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -42,8 +42,8 @@ const Calculator = () => {
           </div>
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -51,8 +51,8 @@ const Calculator = () => {
           </div>
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -60,8 +60,8 @@ const Calculator = () => {
           </div>
           <div
             className="symbol"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -71,8 +71,8 @@ const Calculator = () => {
         <div className="row">
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -80,8 +80,8 @@ const Calculator = () => {
           </div>
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -89,8 +89,8 @@ const Calculator = () => {
           </div>
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -98,8 +98,8 @@ const Calculator = () => {
           </div>
           <div
             className="symbol"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -109,8 +109,8 @@ const Calculator = () => {
         <div className="row">
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -118,8 +118,8 @@ const Calculator = () => {
           </div>
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -127,8 +127,8 @@ const Calculator = () => {
           </div>
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -136,8 +136,8 @@ const Calculator = () => {
           </div>
           <div
             className="symbol"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -147,8 +147,8 @@ const Calculator = () => {
         <div className="row">
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -156,8 +156,8 @@ const Calculator = () => {
           </div>
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -165,8 +165,8 @@ const Calculator = () => {
           </div>
           <div
             className="number"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -174,8 +174,8 @@ const Calculator = () => {
           </div>
           <div
             className="symbol"
-            onClick={clickFunction}
-            onKeyDown={onKeyPress}
+            onClick={onClick}
+            onKeyDown={onClick}
             role="button"
             tabIndex="0"
           >
@@ -186,8 +186,8 @@ const Calculator = () => {
           <div className="row">
             <div
               className="special"
-              onClick={clickFunction}
-              onKeyDown={onKeyPress}
+              onClick={onClick}
+              onKeyDown={onClick}
               role="button"
               tabIndex="0"
             >
@@ -197,8 +197,8 @@ const Calculator = () => {
           <div className="row">
             <div
               className="number"
-              onClick={clickFunction}
-              onKeyDown={onKeyPress}
+              onClick={onClick}
+              onKeyDown={onClick}
               role="button"
               tabIndex="0"
             >
@@ -206,8 +206,8 @@ const Calculator = () => {
             </div>
             <div
               className="symbol"
-              onClick={clickFunction}
-              onKeyDown={onKeyPress}
+              onClick={onClick}
+              onKeyDown={onClick}
               role="button"
               tabIndex="0"
             >
