@@ -10,7 +10,7 @@ class App extends React.Component {
 
   /* eslint-disable class-methods-use-this */
   render() {
-    return <Calculator />;
+    return (<Calculator />);
   }
 }
 
