@@ -34,7 +34,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -43,7 +43,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -52,7 +52,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -61,7 +61,7 @@ const Calculator = () => {
           <div
             className="symbol"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -72,7 +72,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -81,7 +81,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -90,7 +90,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -99,7 +99,7 @@ const Calculator = () => {
           <div
             className="symbol"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -110,7 +110,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -119,7 +119,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -128,7 +128,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -137,7 +137,7 @@ const Calculator = () => {
           <div
             className="symbol"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -148,7 +148,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -157,7 +157,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -166,7 +166,7 @@ const Calculator = () => {
           <div
             className="number"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -175,7 +175,7 @@ const Calculator = () => {
           <div
             className="symbol"
             onClick={onClick}
-            onKeyDown={onClick}
+            onKeyDown={() => { }}
             role="button"
             tabIndex="0"
           >
@@ -187,7 +187,7 @@ const Calculator = () => {
             <div
               className="special"
               onClick={onClick}
-              onKeyDown={onClick}
+              onKeyDown={() => { }}
               role="button"
               tabIndex="0"
             >
@@ -198,7 +198,7 @@ const Calculator = () => {
             <div
               className="number"
               onClick={onClick}
-              onKeyDown={onClick}
+              onKeyDown={() => { }}
               role="button"
               tabIndex="0"
             >
@@ -207,7 +207,7 @@ const Calculator = () => {
             <div
               className="symbol"
               onClick={onClick}
-              onKeyDown={onClick}
+              onKeyDown={() => { }}
               role="button"
               tabIndex="0"
             >
