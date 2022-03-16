@@ -38,7 +38,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -47,7 +47,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -56,7 +56,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -65,7 +65,7 @@ class Calculator extends React.Component {
             <div
               className="symbol"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -76,7 +76,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -85,7 +85,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -94,7 +94,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -103,7 +103,7 @@ class Calculator extends React.Component {
             <div
               className="symbol"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -114,7 +114,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -123,7 +123,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -132,7 +132,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -141,7 +141,7 @@ class Calculator extends React.Component {
             <div
               className="symbol"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -152,7 +152,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -161,7 +161,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -170,7 +170,7 @@ class Calculator extends React.Component {
             <div
               className="number"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -179,7 +179,7 @@ class Calculator extends React.Component {
             <div
               className="symbol"
               onClick={this.clickFunction}
-              onKeyDown={this.clickFunction}
+              onKeyDown={this.onKeyPress}
               role="button"
               tabIndex="0"
             >
@@ -191,7 +191,7 @@ class Calculator extends React.Component {
               <div
                 className="special"
                 onClick={this.clickFunction}
-                onKeyDown={this.clickFunction}
+                onKeyDown={this.onKeyPress}
                 role="button"
                 tabIndex="0"
               >
@@ -202,7 +202,7 @@ class Calculator extends React.Component {
               <div
                 className="number"
                 onClick={this.clickFunction}
-                onKeyDown={this.clickFunction}
+                onKeyDown={this.onKeyPress}
                 role="button"
                 tabIndex="0"
               >
@@ -211,7 +211,7 @@ class Calculator extends React.Component {
               <div
                 className="symbol"
                 onClick={this.clickFunction}
-                onKeyDown={this.clickFunction}
+                onKeyDown={this.onKeyPress}
                 role="button"
                 tabIndex="0"
               >
