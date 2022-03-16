@@ -70,7 +70,7 @@ To get a local copy up and running follow these simple example steps.
 - Open terminal
 - Change the directory you want put the repo
 - Then run
-  i. Run git clone git@github.com:mengiefen/awesome-books.git
+  i. Run git clone git@github.com:ikuartz/math-magicians.git
   ii. cd repo-name/
 
 ### Install
