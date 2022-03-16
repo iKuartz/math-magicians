@@ -7,7 +7,7 @@
 
 [Screenshot of the UI](./src/imgs/screenshot.png)
 
-"Math Magicians" is a single page app that displays a calculator allows you to make basic operations. Now the functionalities and the main logic of the app are ready. You can use the calculator by clicking its buttons.
+"Math Magicians" is a single page app that displays a calculator allows you to make basic operations. Now the functionalities and the main logic of the app are ready. You can use the calculator by clicking its buttons. The code was completely refactored to work with React functions instead of classes.
 
 ## Live Page
 
